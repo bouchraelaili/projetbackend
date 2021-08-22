@@ -1,0 +1,84 @@
+/**************************************************** Reservation ****************************************************/
+.reservation .hero {
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.reservation .hero img {
+  position: absolute;
+  width: 100%;
+  margin-top: -150px;
+  height: auto;
+}
+
+.reservation .hero .text {
+  position: absolute;
+  bottom: 23%;
+  right: 5%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.reservation .hero .text h1 {
+  font-family: "Palanquin", "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 70px;
+  line-height: 166px;
+  text-align: left;
+  color: #192428;
+}
+
+.reservation .hero .text h1 span {
+  font-weight: bold;
+  color: #FDC500;
+}
+
+.reservation .reservationSection {
+  padding: 3% 5%;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.reservation .reservationSection img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.reservation .reservationSection .content {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  width: 90%;
+}
+
+.reservation .reservationSection .content h1 {
+  font-family: "Palanquin", "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+  color: #fff;
+}
+
+.reservation .reservationSection .content h1 span {
+  color: #39ACE7;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+
+.glass {
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.4), rgba(241, 241, 241, 0.1));
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  --webkit-backdrop-filter: blur(20px);
+}
+.imagegrid{
+  width:70% ;
+  height: 70%;
+}
